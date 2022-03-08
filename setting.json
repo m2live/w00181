@@ -7,6 +7,14 @@
                 ]
             },
             "name": "1domain.com"
+        },
+        {
+            "name": "3domain.com",
+            "origin": {
+                "address": [
+                    "3origin.com"
+                ]
+            }
         }
     ]
 }
