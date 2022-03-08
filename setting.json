@@ -1,1 +1,12 @@
-{}
+{
+    "hosting": [
+        {
+            "origin": {
+                "address": [
+                    "1origin.com"
+                ]
+            },
+            "name": "1domain.com"
+        }
+    ]
+}
