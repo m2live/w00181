@@ -15,6 +15,14 @@
                     "3origin.com"
                 ]
             }
+        },
+        {
+            "name": "4domain.com",
+            "origin": {
+                "address": [
+                    "4origin.com"
+                ]
+            }
         }
     ]
 }
