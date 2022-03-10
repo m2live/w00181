@@ -18,30 +18,6 @@
             }
         },
         {
-            "hosting": [
-                {
-                    "enable": true
-                }
-            ],
-            "origin": {
-                "address": [
-                    "cacheOrigin.com"
-                ]
-            },
-            "functions": {
-                "network": {
-                    "cache": {
-                        "ttl": {
-                            "resCode": {
-                                "noCache": "5"
-                            }
-                        }
-                    }
-                }
-            },
-            "name": "cacheDomain.com"
-        },
-        {
             "enable": true,
             "origin": {
                 "address": [
