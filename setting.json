@@ -15,6 +15,25 @@
                     "ororigin.com"
                 ]
             }
+        },
+        {
+            "name": "cacheDomain.com",
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": "5"
+                            }
+                        }
+                    }
+                }
+            },
+            "origin": {
+                "address": [
+                    "cacheOrigin.com"
+                ]
+            }
         }
     ]
 }
