@@ -47,6 +47,14 @@
                 ]
             },
             "name": "11domain.comm"
+        },
+        {
+            "origin": {
+                "address": [
+                    "asd"
+                ]
+            },
+            "name": "aa"
         }
     ]
 }
