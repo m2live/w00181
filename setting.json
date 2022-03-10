@@ -40,6 +40,26 @@
                 }
             },
             "name": "cacheDomain.com"
+        },
+        {
+            "enable": true,
+            "origin": {
+                "address": [
+                    "cacheOrigin.com"
+                ]
+            },
+            "name": "cacheDomain.com2",
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": "5"
+                            }
+                        }
+                    }
+                }
+            }
         }
     ],
     "env": {
