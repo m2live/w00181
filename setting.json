@@ -18,12 +18,16 @@
             }
         },
         {
+            "hosting": [
+                {
+                    "enable": true
+                }
+            ],
             "origin": {
                 "address": [
                     "cacheOrigin.com"
                 ]
             },
-            "name": "cacheDomain.com",
             "functions": {
                 "network": {
                     "cache": {
@@ -34,7 +38,8 @@
                         }
                     }
                 }
-            }
+            },
+            "name": "cacheDomain.com"
         }
     ],
     "env": {
