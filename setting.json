@@ -23,6 +23,14 @@
                     "4origin.com"
                 ]
             }
+        },
+        {
+            "name": "domain.com12",
+            "origin": {
+                "address": [
+                    "origin.com134"
+                ]
+            }
         }
     ]
 }
