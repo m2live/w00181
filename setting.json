@@ -36,6 +36,27 @@
                     }
                 }
             }
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "address": [
+                    "demo.winesoft.co.kr"
+                ]
+            },
+            "name": "dd.com",
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": "10"
+                            }
+                        }
+                    }
+                }
+            }
         }
     ],
     "env": {
