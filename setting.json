@@ -69,7 +69,9 @@
                     "cache": {
                         "ttl": {
                             "resCode": {
-                                "noCache": "20"
+                                "noCache": {
+                                    "sec": "21"
+                                }
                             }
                         }
                     }
