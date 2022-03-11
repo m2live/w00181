@@ -78,6 +78,29 @@
                 }
             },
             "name": "cachetest.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "address": [
+                    "demo.winesoft.co.kr"
+                ]
+            },
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": {
+                                    "sec": 15
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "m2.winesoft2.co.kr"
         }
     ],
     "env": {
