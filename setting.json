@@ -38,8 +38,6 @@
             }
         },
         {
-            "enable": true,
-            "listen": "*:80",
             "origin": {
                 "address": [
                     "demo.winesoft.co.kr"
@@ -50,7 +48,7 @@
                     "cache": {
                         "ttl": {
                             "resCode": {
-                                "noCache": "10"
+                                "noCache": "18"
                             }
                         }
                     }
