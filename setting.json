@@ -101,6 +101,29 @@
                 }
             },
             "name": "m2.winesoft2.co.kr"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "address": [
+                    "demo.winesoft.co.kr"
+                ]
+            },
+            "name": "cachetestdomain.com",
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": {
+                                    "sec": 7
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     ],
     "env": {
