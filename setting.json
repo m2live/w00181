@@ -78,6 +78,29 @@
                 }
             },
             "name": "cachetest.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "address": [
+                    null
+                ]
+            },
+            "name": null,
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": {
+                                    "sec": 22
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     ],
     "env": {
