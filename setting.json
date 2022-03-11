@@ -70,7 +70,7 @@
                         "ttl": {
                             "resCode": {
                                 "noCache": {
-                                    "sec": 23
+                                    "sec": 24
                                 }
                             }
                         }
