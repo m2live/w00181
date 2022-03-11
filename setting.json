@@ -45,7 +45,6 @@
                     "demo.winesoft.co.kr"
                 ]
             },
-            "name": "dd.com",
             "functions": {
                 "network": {
                     "cache": {
@@ -56,7 +55,8 @@
                         }
                     }
                 }
-            }
+            },
+            "name": "dd.com"
         }
     ],
     "env": {
