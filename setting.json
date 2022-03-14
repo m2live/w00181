@@ -60,6 +60,17 @@
                 ]
             },
             "name": "1313"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "3535"
+                ]
+            },
+            "name": "345566"
         }
     ],
     "env": {
