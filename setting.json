@@ -38,6 +38,17 @@
                 ]
             },
             "name": "5"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "7"
+                ]
+            },
+            "name": "7"
         }
     ],
     "env": {
