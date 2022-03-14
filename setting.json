@@ -60,6 +60,17 @@
                 ]
             },
             "name": "10"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "123"
+                ]
+            },
+            "name": "123"
         }
     ],
     "env": {
