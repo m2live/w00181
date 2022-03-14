@@ -27,6 +27,17 @@
                 ]
             },
             "name": "duplTestDomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "2"
+                ]
+            },
+            "name": "3"
         }
     ],
     "env": {
