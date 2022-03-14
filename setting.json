@@ -5,7 +5,19 @@
         "admin": "admin@example.com",
         "defaultHosting": "www.example.com"
     },
-    "hosting": [],
+    "hosting": [
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "ororigin.com"
+                ]
+            },
+            "name": "dodomain.com"
+        }
+    ],
     "env": {
         "log": {
             "info": {
