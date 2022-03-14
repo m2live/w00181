@@ -82,6 +82,17 @@
                 ]
             },
             "name": "22"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "50"
+                ]
+            },
+            "name": "40"
         }
     ],
     "env": {
