@@ -6,6 +6,17 @@
         "defaultHosting": "www.example.com"
     },
     "hosting": [
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "1"
+                ]
+            },
+            "name": "1"
+        }
     ],
     "env": {
         "log": {
