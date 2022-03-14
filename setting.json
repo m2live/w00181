@@ -81,9 +81,10 @@
             "name": "cachetest.com"
         },
         {
-            "enable": true,
+            "enable": false,
             "listen": "*:80",
             "origin": {
+                "protocol": "HTTPS",
                 "address": [
                     "demo.winesoft.co.kr"
                 ]
