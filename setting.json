@@ -16,6 +16,17 @@
                 ]
             },
             "name": "dodomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "duplTestOrigin.com"
+                ]
+            },
+            "name": "duplTestDomain.com"
         }
     ],
     "env": {
