@@ -82,6 +82,30 @@
                 ]
             },
             "name": "dodomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "demo.winesoft.co.kr"
+                ]
+            },
+            "name": "cacheTest0314.com",
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": {
+                                    "sec": 20
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     ],
     "env": {
