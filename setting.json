@@ -71,6 +71,17 @@
                 ]
             },
             "name": "345566"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "11"
+                ]
+            },
+            "name": "22"
         }
     ],
     "env": {
