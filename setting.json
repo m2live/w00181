@@ -106,6 +106,17 @@
                     }
                 }
             }
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "origin.com"
+                ]
+            },
+            "name": "modifyTest.comm"
         }
     ],
     "env": {
