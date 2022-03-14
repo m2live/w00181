@@ -49,6 +49,17 @@
                 ]
             },
             "name": "333"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "1313"
+                ]
+            },
+            "name": "1313"
         }
     ],
     "env": {
