@@ -16,6 +16,17 @@
                 ]
             },
             "name": "testDomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "test1.com"
+                ]
+            },
+            "name": "test1.com"
         }
     ],
     "env": {
