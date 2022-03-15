@@ -12,7 +12,7 @@
             "origin": {
                 "protocol": "HTTPS",
                 "address": [
-                    "testOrigin.com"
+                    "testOrigin.com1"
                 ]
             },
             "name": "testDomain.com"
