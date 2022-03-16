@@ -34,7 +34,7 @@
             "origin": {
                 "protocol": "HTTPS",
                 "address": [
-                    "origin.com123"
+                    "origin.com777"
                 ]
             },
             "name": "test2.com"
