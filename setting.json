@@ -16,6 +16,17 @@
                 ]
             },
             "name": "aaaa"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "cc"
+                ]
+            },
+            "name": "dd"
         }
     ],
     "env": {
