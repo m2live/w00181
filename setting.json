@@ -38,6 +38,17 @@
                 ]
             },
             "name": "abcd.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "ororigin.com"
+                ]
+            },
+            "name": "dodomain.com"
         }
     ],
     "env": {
