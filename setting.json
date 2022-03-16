@@ -56,7 +56,7 @@
             "origin": {
                 "protocol": "HTTPS",
                 "address": [
-                    "testOrigin.commm"
+                    "testOrigin.comm"
                 ]
             },
             "name": "testDomain.com"
