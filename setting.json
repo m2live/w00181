@@ -49,6 +49,17 @@
                 ]
             },
             "name": "newDomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "bb"
+                ]
+            },
+            "name": "aa"
         }
     ],
     "env": {
