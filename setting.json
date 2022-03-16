@@ -38,6 +38,17 @@
                 ]
             },
             "name": "abc"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "hahaorigin.com"
+                ]
+            },
+            "name": "hahadomain.com"
         }
     ],
     "env": {
