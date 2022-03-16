@@ -16,6 +16,17 @@
                 ]
             },
             "name": "hahadomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "bcd"
+                ]
+            },
+            "name": "asd"
         }
     ],
     "env": {
