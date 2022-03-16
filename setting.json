@@ -27,6 +27,17 @@
                 ]
             },
             "name": "dd"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "de"
+                ]
+            },
+            "name": "abc"
         }
     ],
     "env": {
