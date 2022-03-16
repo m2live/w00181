@@ -60,6 +60,17 @@
                 ]
             },
             "name": "aa"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "bababa"
+                ]
+            },
+            "name": "doobababa"
         }
     ],
     "env": {
