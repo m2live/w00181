@@ -49,6 +49,17 @@
                 ]
             },
             "name": "dodomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "testOrigin.commm"
+                ]
+            },
+            "name": "testDomain.com"
         }
     ],
     "env": {
