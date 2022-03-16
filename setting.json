@@ -27,6 +27,17 @@
                 ]
             },
             "name": "asd"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "origin.com"
+                ]
+            },
+            "name": "abcd.com"
         }
     ],
     "env": {
