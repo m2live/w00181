@@ -5,52 +5,7 @@
         "admin": "admin@example.com",
         "defaultHosting": "www.example.com"
     },
-    "hosting": [
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "bbbb"
-                ]
-            },
-            "name": "aaaa"
-        },
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "cc"
-                ]
-            },
-            "name": "dd"
-        },
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "de"
-                ]
-            },
-            "name": "abc"
-        },
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "hahaorigin.com"
-                ]
-            },
-            "name": "hahadomain.com"
-        }
-    ],
+    "hosting": [],
     "env": {
         "log": {
             "info": {
