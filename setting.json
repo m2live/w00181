@@ -49,17 +49,6 @@
                 ]
             },
             "name": "testDomain.com"
-        },
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "newOrigin.com"
-                ]
-            },
-            "name": "newDomain.com"
         }
     ],
     "env": {
