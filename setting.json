@@ -27,6 +27,17 @@
                 ]
             },
             "name": "testdomain.com"
+        },
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "aorigin.com"
+                ]
+            },
+            "name": "adomain.com"
         }
     ],
     "env": {
