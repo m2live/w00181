@@ -23,7 +23,7 @@
             "origin": {
                 "protocol": "HTTPS",
                 "address": [
-                    "bor.comm"
+                    "bor.3comm"
                 ]
             },
             "name": "bdo.com"
