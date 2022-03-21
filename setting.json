@@ -16,17 +16,6 @@
                 ]
             },
             "name": "ado.com"
-        },
-        {
-            "enable": true,
-            "listen": "*:80",
-            "origin": {
-                "protocol": "HTTPS",
-                "address": [
-                    "bor.3comm"
-                ]
-            },
-            "name": "bdo.com"
         }
     ],
     "env": {
