@@ -16,6 +16,17 @@
             },
             "name": "ado.com",
             "enable": true
+        },
+        {
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "ddasdf"
+                ]
+            },
+            "name": "domain.com",
+            "enable": true
         }
     ],
     "env": {
